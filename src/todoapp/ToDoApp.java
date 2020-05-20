@@ -109,7 +109,7 @@ public class ToDoApp {
                     //calling the method to let user remove/add/enter a category based on their choice
                     choosingActions(userAction, listOfCategories, sc);
                 } else {
-                    System.out.println("The index does not exist! Try again!");
+                    System.out.println("The index does not exist! Try again!"); 
                     System.out.println("");
                     choosingActions(userActions, listOfCategories, sc);
                 }
